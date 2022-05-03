@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+nav{
+    background-color: #222629;
+    display: flex;
+}
+.logo img{
+    width: 50px;
+   padding: 10px 0px 10px 3px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li{
+    padding: 24px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+}
+.bt a{
+    border: 2px solid white;
+    border-radius: 15px;
+	padding: 6px 11px;
+	background-color: #222629;
+	color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.bg{
+    overflow: hidden;
+   margin: 1vh 5vw 0 5vw;
+}
+.specialityImg{
+	background-color: #EEEEEE;
+}
+.specialityImg h2 , .pics h3{
+	color: #76B900;
+	padding: 30px 0px;
+	text-align: center;
+}
+.pics{
+	padding: 20px 0px;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-around;
+}
+.pics div img{
+    width: 30vw;
+    height: 50vh;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.pics div img:hover{
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+    
+.Learn{
+	background-color: white;
+}
+.container{
+	margin: 0px 80px;
+}
+.title{
+	padding: 40px;
+	text-align: center;
+}
+.title h1{
+	font-size: 50px;
+}
+.row{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	grid-gap: 10px;
+}
+.photos{
+	padding: 30px;
+	text-align: center;
+}
+.photos:hover{
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	cursor: all-scroll;
+}
+.pic-img img{
+	width: 396px;
+	height: 216px;
+}
+.details{
+	padding: 20px;
+}
+.btn{
+	margin-top: 30px;
+}
+.btn a{
+	border-radius: 30px;
+	padding: 20px 40px;
+	background-color: black;
+	color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+	transition: all 0.3s linear;
+	background-color: rgb(100, 100, 100);
+}
+#h1{
+    display: flex;
+    justify-content: center;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background:#222629;
+  }
+  span{
+    position: relative;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "REGISTER";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: #222629;
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: #fff;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+}
+.form:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	cursor: all-scroll;
+}
+footer{
+    background-color:#626D71;
+    color: white;
+}
+.contain{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: space-around;
+    padding: 5vh 0vh;
+}
+
+#foot{
+ padding-bottom: 10px;  
+}
+
+.contact ul li a{
+color: white;
+text-decoration: none;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li{
+    padding: 0.60vh;
+}
